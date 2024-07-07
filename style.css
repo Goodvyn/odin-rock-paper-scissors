@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100vh;
+}
+
+.body-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    flex: 1;
+}
+
+.side-panel-left, .side-panel-right {
+    flex: 1;
+}
+
+
+
+.player-choice-buttons-panel {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.player-choice-button {
+    padding: 10px;
+}
+
+.round-result-display {
+    gap: 10px;
+    width: max-content;
+    display: flex;
+}
+
+.p-result-container {
+    display: flex;
+}
+
+.li-display-game-info {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}

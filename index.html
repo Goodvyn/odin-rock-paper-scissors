@@ -4,12 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-
+    <div class="body-wrapper">
+        <div class="side-panel-left"></div>
+        <div class="game-container">
+            <div class="player-choice-buttons-panel">
+                <button class="player-choice-button" id="btn-rock">Rock</button>
+                <button class="player-choice-button" id="btn-paper">Paper</button>
+                <button class="player-choice-button" id="btn-scissors">Scissors</button>
+            </div>
+            <div class="round-result-display-container">
+                <div class="round-result-display">
+                    <ul class="ul-display-game-info">
+                        <li class="li-display-game-info">Player Choice: </li>
+                        <li class="li-display-game-info">Computer choice: </li>
+                        <li class="li-display-game-info">Round result: </li>
+                        <li class="li-display-game-info">Player score: </li>
+                        <li class="li-display-game-info">Computer score: </li>
+                        <li class="li-display-game-info">Game result: </li>
+                    </ul>
+                    <div class="p-results-container">
+                        <p id="player-choice"></p>
+                        <p id="computer-choice"></p>
+                        <p id="round-result"></p>
+                        <p id="player-score"></p>
+                        <p id="computer-score"></p>
+                        <p id="game-result"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side-panel-right"></div>
+    </div>
 </body>
 
 </html>
